@@ -7,11 +7,19 @@ h1 {
     color: white; 
     border-bottom: 1px solid; 
     padding: 5px; 
-    font-family: copperplate;
+    font-family: "copperplate";
 }
 
-.column {
-    float: left;
+main {
+    width: 50%;
+    margin: 0 auto;
+    .liquor {
+        margin: 10px;
+    }
+}
+
+img {
+    border-bottom: 2px solid;
 }
 
 .card {
@@ -20,24 +28,19 @@ h1 {
     text-align: center;
     h5 {
         font-size: 30px;
+        font-family: "comic sans ms";
+        font-weight: bold
     }
 }
+
 #header {
     background-color: purple;
 }
 
-#left-column, #right-column {
-    width: 25%;
-}
-
-#main-column {
-    width: 50%;
-    #liquor-buttons {
-        margin: 0 auto;
-    }
-    .liquor {
-        margin: 10px;
-    }
+#intro-text {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .btn:hover {

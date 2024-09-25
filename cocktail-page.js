@@ -4,13 +4,13 @@ var currentLiquorSelected = null
 
 function createCocktailCard(liquor, cocktail) {
     var cardDiv = document.createElement("div");
-    cardDiv.setAttribute("class", "card")
+    cardDiv.classList.add("card")
 
     var img = document.createElement("img")
     Object.assign(img, {className: "card-img-top", src: cocktails[liquor][cocktail].img, alt: "Cocktail Image"})
 
     var cardBodyDiv = document.createElement("div")
-    cardBodyDiv.setAttribute("class", "card-body")
+    cardBodyDiv.classList.add("card-body")
 
     var cardTitle = document.createElement("h5")
     cardTitle.innerHTML = cocktail
@@ -42,7 +42,7 @@ function listDrinks(liquor) {
             list.appendChild(card)
         }
 
-        document.querySelector("#main-column").appendChild(list)
+        document.querySelector("main").appendChild(list)
     }
 }
 
