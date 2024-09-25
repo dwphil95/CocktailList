@@ -1,31 +1,6 @@
 import cocktails from "./cocktails.json" with { type: 'json' };
 
 var currentLiquorSelected = null
-const liquors = document.querySelectorAll(".liquor")
-
-liquors.forEach((liquor) => {
-    liquor.addEventListener("click", () => {listDrinks(liquor.value)}, false)
-    liquor.addEventListener("mouseenter", function( event ) {}, false);
-    liquor.addEventListener("mouseleave", function( event ) {}, false);
-})
-
-function listDrinks(liquor) {
-    if (currentLiquorSelected !== liquor){
-        currentLiquorSelected = liquor
-
-        document.getElementById("cocktail-details").remove()
-        var details = document.createElement("section")
-        details.setAttribute("id", "cocktail-details")
-
-        var liquorDrinks = cocktails[liquor]
-        for (var cocktail in liquorDrinks){
-            var card = createCocktailCard(liquor, cocktail)
-            details.appendChild(card)
-        }
-
-        document.getElementById("main-column").appendChild(details)
-    }
-}
 
 function createCocktailCard(liquor, cocktail) {
     var cardDiv = document.createElement("div");
@@ -52,3 +27,41 @@ function createCocktailCard(liquor, cocktail) {
 
     return cardDiv
 }
+
+function listDrinks(liquor) {
+    if (currentLiquorSelected !== liquor){
+        currentLiquorSelected = liquor
+
+        document.getElementById("cocktail-list").remove()
+        var list = document.createElement("section")
+        list.setAttribute("id", "cocktail-list")
+
+        var liquorDrinks = cocktails[liquor]
+        for (var cocktail in liquorDrinks){
+            var card = createCocktailCard(liquor, cocktail)
+            list.appendChild(card)
+        }
+
+        document.getElementById("main-column").appendChild(list)
+    }
+}
+
+function loadLiquorButtons() {
+    const liquors = Object.keys(cocktails)
+    const liquorButtonSection = document.querySelector("#liquor-buttons")
+    liquors.forEach((liquor) => {
+        let button = document.createElement("button")
+        button.classList.add("liquor", "btn", "btn-info")
+        Object.assign(button, {
+            id: liquor,
+            value: liquor,
+            textContent: liquor, 
+            onclick: () => listDrinks(liquor),
+            onmouseenter: (event) => {},
+            onmouseleave: (event) => {}
+        })
+        liquorButtonSection.append(button)
+    })
+}
+
+loadLiquorButtons()

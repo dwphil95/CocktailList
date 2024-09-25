@@ -1,5 +1,5 @@
 {
-    "whiskey": {
+    "Whiskey": {
         "Kentucky Mule": {
             "img": "imgs/kentucky-mule.jpg",
             "description": "The Kentucky mule opts for bourbon in this spin on the classic Moscow mule! It’s bubbly, bright and bold, with a spicy whiskey finish.",
@@ -31,7 +31,7 @@
             "recipe": []
         }
     },
-    "tequila": {
+    "Tequila": {
         "Tequila Sunrise": {
             "img": "imgs/tequila-sunrise.jpeg",
             "description": "Sunny and bright, this tequila cocktail is as eye-catching as a golden sunrise. It’s swirled with vibrant yellows and reds, thanks to the fruity combination of orange, lime, tequila, and grenadine. Decorate with a maraschino cherry and a cocktail umbrella to serve this one poolside in the summer.",
@@ -63,7 +63,7 @@
             "recipe": []
         }
     },
-    "vodka": {
+    "Vodka": {
         "Moscow Mule": {
             "img": "imgs/moscow-mule.jpeg",
             "description": "Said to have been created in the 1940s as a way to introduce Americans to vodka, a then-uncommon spirit, this simple three-ingredient cocktail is an easy mix of vodka, lime juice, and spicy ginger beer. It’s perhaps most notable for the vessel it’s traditionally served in, an eye-catching copper mug.",
@@ -95,7 +95,7 @@
             "recipe": []
         }
     },
-    "gin": {
+    "Gin": {
         "Gin and Tonic": {
             "img": "imgs/gin-and-tonic.jpeg",
             "description": "A perfectly seamless blend of crisp, junipery gin and thirst-quenchingly zesty tonic water, it’s no wonder the Gin and Tonic is one of the most perennially popular patio drinks.",
@@ -127,7 +127,7 @@
             "recipe": []
         }
     },
-    "rum": {
+    "Rum": {
         "Mojito": {
             "img": "imgs/mojito.jpeg",
             "description": "This Cuban classic calls for combining unaged white rum, lime juice, muddled mint leaves, and sugar before topping it all with club soda. It’s a refreshing drink that provides a blast of flavor to take you straight into the Caribbean tropics, as perfect at a party as it is poolside.",
