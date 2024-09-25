@@ -1,0 +1,162 @@
+{
+    "whiskey": {
+        "Kentucky Mule": {
+            "img": "imgs/kentucky-mule.jpg",
+            "description": "The Kentucky mule opts for bourbon in this spin on the classic Moscow mule! It’s bubbly, bright and bold, with a spicy whiskey finish.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Old Fashioned": {
+            "img": "imgs/old-fashioned.jpg",
+            "description": "The very first definition of the word “cocktail” in print (way back in 1806) described a combination of sugar, bitters, water, and spirit. In other words, this drink is precisely what the word cocktail referred to 200 years ago.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Whiskey Sour": {
+            "img": "imgs/whiskey-sour.png",
+            "description": "This whiskey sour recipe has all the right proportions of bright, bracing lemon juice; warming, floral bourbon; and sweet simple syrup to deliver a refreshing cocktail that’s neither too cloying nor too biting.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Manhattan": {
+            "img": "imgs/manhattan.jpeg",
+            "description": "What the martini is to gin, the Manhattan is to whiskey. You'll switch from dry to sweet vermouth in this drink, though whiskey is a complicated category of spirits, and each one you pour will create a slightly different drink.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Mint Julep": {
+            "img": "imgs/mint-julep.webp",
+            "description": "The mint julep is the drink of the Kentucky Derby and one of the best-known bourbon cocktails ever created. Like the old-fashioned, this drink requires muddling—in this case, mint and simple syrup—and features your favorite bourbon.",
+            "ingredients": [],
+            "recipe": []
+        }
+    },
+    "tequila": {
+        "Tequila Sunrise": {
+            "img": "imgs/tequila-sunrise.jpeg",
+            "description": "Sunny and bright, this tequila cocktail is as eye-catching as a golden sunrise. It’s swirled with vibrant yellows and reds, thanks to the fruity combination of orange, lime, tequila, and grenadine. Decorate with a maraschino cherry and a cocktail umbrella to serve this one poolside in the summer.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Tequila Sour": {
+            "img": "imgs/tequila-sour.png",
+            "description": "This tasty drink has vintage vibes and a whole lot of lemon lime flavor. Think of it as a Boston sour + classic Margarita, with some bitters thrown in for extra intrigue.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Margarita": {
+            "img": "imgs/margarita.jpg",
+            "description": "You’ve probably had a bad Margarita. Or more than one. But when this zesty classic is made correctly—with quality tequila, orange liqueur, and lime juice — the drink carries itself upright.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Paloma": {
+            "img": "imgs/paloma.jpeg",
+            "description": "If you’ve shunned mixed drinks because they’re too sugary, or too sickly, or too garish, give the Paloma a try. It’s fresh and simple, made with sparkling water, tequila, and citrus. There’s no added sugar in this one, just a dash of agave to balance the sour notes. This is a tequila cocktail for grown-ups.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "El Diablo": {
+            "img": "imgs/el-diablo.jpeg",
+            "description": "This dark and devilish mix of black currant liqueur, ginger beer, and lime is one of my go-to Thanksgiving tequila cocktails. With its perfect balance of sweet, tart, and spicy flavors, El Diablo is one sprightly spirit.",
+            "ingredients": [],
+            "recipe": []
+        }
+    },
+    "vodka": {
+        "Moscow Mule": {
+            "img": "imgs/moscow-mule.jpeg",
+            "description": "Said to have been created in the 1940s as a way to introduce Americans to vodka, a then-uncommon spirit, this simple three-ingredient cocktail is an easy mix of vodka, lime juice, and spicy ginger beer. It’s perhaps most notable for the vessel it’s traditionally served in, an eye-catching copper mug.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Bloody Mary": {
+            "img": "imgs/bloody-mary.webp",
+            "description": "It’s a hangover cure, a nutritious breakfast, an airport bar staple. This tomato- and vodka-based classic, created in Paris in the 1920s, is one of those drinks every city, every bar, and every bartender makes their own way.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Screwdriver": {
+            "img": "imgs/screwdriver.webp",
+            "description": "Got OJ? Got vodka? Make a Screwdriver! The Screwdriver is one of the easiest cocktails there is, ideal for afternoon drinks or brunch.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Cosmopolitan": {
+            "img": "imgs/cosmopolitan.jpeg",
+            "description": "Here's another classic vodka cocktail: the Cosmo! It’s got a brilliant pink color and refreshing flavor. This recipe is balanced and tangy, an improved version of the classic using 100% cranberry juice. It's an easy cocktail to make, ready to spice up your next gathering.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Midori Sour": {
+            "img": "imgs/midori-sour.jpeg",
+            "description": "Many of the early neon drinks borne of the 1980s, famous for their vibrant hues and sweet, fruity flavors, are starting to make a comeback. If you’re looking for another recipe to add to your neon green cocktail arsenal, look no further than the Midori sour.",
+            "ingredients": [],
+            "recipe": []
+        }
+    },
+    "gin": {
+        "Gin and Tonic": {
+            "img": "imgs/gin-and-tonic.jpeg",
+            "description": "A perfectly seamless blend of crisp, junipery gin and thirst-quenchingly zesty tonic water, it’s no wonder the Gin and Tonic is one of the most perennially popular patio drinks.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Gin Fizz": {
+            "img": "imgs/gin-fizz.jpeg",
+            "description": "This bright and effervescent combination of gin, lemon juice, simple syrup, an egg white, and club soda—akin to a Tom Collins plus egg white, or a Gin Sour with bubbles—produces a fizzy, frothy delight.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Negroni": {
+            "img": "imgs/negroni.jpeg",
+            "description": "The Negroni is arguably the most famous of all Campari cocktails. This modest mix of equal parts gin, Campari, and sweet vermouth has made fine dining even finer since the 1920s.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "French 75": {
+            "img": "imgs/french75.jpeg",
+            "description": "The French 75 is as delightful as it is simple. The recipe combines gin, simple syrup, and lemon juice for a classic sour base. It's when the sparkling wine hits this mix that things really begin to glisten.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Gimlet": {
+            "img": "imgs/gimlet.jpeg",
+            "description": "Believed to have been created by British sailors (as many of the oldest cocktails were) as a way to prevent scurvy, this drink mixes a clear spirit, lime juice, and simple syrup to create a refreshing (and vitamin C-filled) cocktail.",
+            "ingredients": [],
+            "recipe": []
+        }
+    },
+    "rum": {
+        "Mojito": {
+            "img": "imgs/mojito.jpeg",
+            "description": "This Cuban classic calls for combining unaged white rum, lime juice, muddled mint leaves, and sugar before topping it all with club soda. It’s a refreshing drink that provides a blast of flavor to take you straight into the Caribbean tropics, as perfect at a party as it is poolside.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Daquiri": {
+            "img": "imgs/daquiri.webp",
+            "description": "The blender has certainly put its stamp on the Daiquiri, but this profoundly simple drink is at its best when it stays clear of a steel blade. Simply shake up rum, simple syrup and a blast of fresh lime juice, and you have the most perfect of citrusy cocktails.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Pina Colada": {
+            "img": "imgs/pina-colada.jpeg",
+            "description": "Whether you blend it or shake it, few drinks say 'summer' like a piña colada. This tropical dream in a glass includes light rum, pineapple juice, and coconut cream. Every sip takes you on a mental journey to the islands, so relax and enjoy!",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Mai Thai": {
+            "img": "imgs/mai-tai.jpeg",
+            "description": "The Mai Tai is one of the most famous Tiki drinks in the world. Composed of rum, orange curaçao, fresh lime juice and orgeat (a nuanced almond syrup), it’s held sway over cocktail enthusiasts and Tiki aficionados for decades.",
+            "ingredients": [],
+            "recipe": []
+        },
+        "Zombie": {
+            "img": "imgs/zombie.png",
+            "description": "The Zombie is a behemoth of a cocktail that features three different rums—Jamaican, Puerto Rican and 151-proof. It's emblematic of the type of cocktails served at Beach's bar—strong and complex with many ingredients and multiple rums. The Zombie fits perfectly within Donn's philosophy, 'If you can't get to paradise, I'll bring it to you.'",
+            "ingredients": [],
+            "recipe": []
+        }
+    }
+}

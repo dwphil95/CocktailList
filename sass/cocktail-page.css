@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: lightgrey;
+}
+
+h1 {
+  color: white;
+  border-bottom: 1px solid;
+  padding: 5px;
+  font-family: copperplate;
+}
+
+.column {
+  float: left;
+}
+
+.card {
+  margin: 20px;
+  border: 2px solid;
+  text-align: center;
+}
+.card h5 {
+  font-size: 30px;
+}
+
+#header {
+  background-color: purple;
+}
+
+#left-column, #right-column {
+  width: 25%;
+}
+
+#main-column {
+  width: 50%;
+}
+#main-column h3 {
+  font-size: 20px;
+}
+#main-column .liquor-buttons {
+  margin: 0 auto;
+}
+#main-column .liquor {
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #205081 !important;
+}/*# sourceMappingURL=cocktail-page.css.map */
