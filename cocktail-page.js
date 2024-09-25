@@ -32,7 +32,7 @@ function listDrinks(liquor) {
     if (currentLiquorSelected !== liquor){
         currentLiquorSelected = liquor
 
-        document.getElementById("cocktail-list").remove()
+        document.querySelector("#cocktail-list").remove()
         var list = document.createElement("section")
         list.setAttribute("id", "cocktail-list")
 
@@ -42,7 +42,7 @@ function listDrinks(liquor) {
             list.appendChild(card)
         }
 
-        document.getElementById("main-column").appendChild(list)
+        document.querySelector("#main-column").appendChild(list)
     }
 }
 
