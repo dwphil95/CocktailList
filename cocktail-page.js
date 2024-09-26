@@ -7,7 +7,7 @@ function createCocktailCard(liquor, cocktail) {
     cardDiv.classList.add("card")
 
     var img = document.createElement("img")
-    Object.assign(img, {className: "card-img-top", src: cocktails[liquor][cocktail].img, alt: "Cocktail Image"})
+    Object.assign(img, {className: "card-img-top", src: cocktails[liquor][cocktail].img, alt: `Image of ${cocktail} cocktail`})
 
     var cardBodyDiv = document.createElement("div")
     cardBodyDiv.classList.add("card-body")
@@ -22,8 +22,8 @@ function createCocktailCard(liquor, cocktail) {
     Object.assign(drinkDetailsButton, {href: "#", className: "btn btn-primary"})
     drinkDetailsButton.innerHTML = "Drink Details"
 
-    cardBodyDiv.innerHTML += cardTitle.outerHTML + description.outerHTML + drinkDetailsButton.outerHTML
-    cardDiv.innerHTML += img.outerHTML + cardBodyDiv.outerHTML
+    cardBodyDiv.append(cardTitle, description, drinkDetailsButton)
+    cardDiv.append(img, cardBodyDiv)
 
     return cardDiv
 }
@@ -60,7 +60,7 @@ function loadLiquorButtons() {
             onmouseenter: (event) => {},
             onmouseleave: (event) => {}
         })
-        liquorButtonSection.append(button)
+        liquorButtonSection.appendChild(button)
     })
 }
 
