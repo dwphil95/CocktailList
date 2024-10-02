@@ -1,8 +1,10 @@
 import cocktails from "./cocktails.json" with { type: 'json' };
+import { openDetails } from "./load-cocktail-details.js";
+
 
 var currentLiquorSelected = null
 
-function createCocktailCard(liquor, cocktail) {
+const createCocktailCard = function(liquor, cocktail) {
     var cardDiv = document.createElement("div");
     cardDiv.classList.add("card")
 
@@ -19,7 +21,11 @@ function createCocktailCard(liquor, cocktail) {
     description.innerHTML = cocktails[liquor][cocktail].description
 
     var drinkDetailsButton = document.createElement("a")
-    Object.assign(drinkDetailsButton, {href: "#", className: "btn btn-primary"})
+    Object.assign(drinkDetailsButton, {
+        href: "javascript:void(0);",    // Prevent default scroll to the top behavior when cocktail details window is opened
+        className: "btn btn-primary", 
+        onclick: () => openDetails(liquor, cocktail)
+    })
     drinkDetailsButton.innerHTML = "Drink Details"
 
     cardBodyDiv.append(cardTitle, description, drinkDetailsButton)
@@ -28,13 +34,12 @@ function createCocktailCard(liquor, cocktail) {
     return cardDiv
 }
 
-function listDrinks(liquor) {
+const listDrinks = function(liquor) {
     if (currentLiquorSelected !== liquor){
         currentLiquorSelected = liquor
 
-        document.querySelector("#cocktail-list").remove()
-        var list = document.createElement("section")
-        list.setAttribute("id", "cocktail-list")
+        var list = document.querySelector("#cocktail-list")
+        list.innerHTML = ""
 
         var liquorDrinks = cocktails[liquor]
         for (var cocktail in liquorDrinks){
@@ -46,7 +51,7 @@ function listDrinks(liquor) {
     }
 }
 
-function loadLiquorButtons() {
+const loadLiquorButtons = function() {
     const liquors = Object.keys(cocktails)
     const liquorButtonSection = document.querySelector("#liquor-buttons")
     liquors.forEach((liquor) => {
@@ -64,4 +69,4 @@ function loadLiquorButtons() {
     })
 }
 
-loadLiquorButtons()
+loadLiquorButtons();

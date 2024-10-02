@@ -1,6 +1,9 @@
 body {
     text-align: center;
     background-color: lightgrey;
+    #header {
+        background-color: purple;
+    }
 }
 
 h1 {
@@ -15,11 +18,11 @@ main {
     margin: 0 auto;
     .liquor {
         margin: 10px;
+        font-weight: bold;
     }
-}
-
-img {
-    border-bottom: 2px solid;
+    .hidden {
+        display: none;
+    }
 }
 
 .card {
@@ -31,10 +34,54 @@ img {
         font-family: "comic sans ms";
         font-weight: bold
     }
+    img {
+        border-bottom: 2px solid;
+    }
 }
 
-#header {
-    background-color: purple;
+.cocktail-details {
+    display: block;
+    gap: 0.4rem;
+    width: 50%;
+    padding: 1.3rem;
+    margin: 0 auto;
+    position: fixed;
+    top: 20%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    z-index: 2;
+    h2 {
+        font-weight: bold;
+        font-family: "comic sans ms";
+    }
+    #btn-close {
+        position: relative;
+        margin-left: auto;
+        margin-right: 0;
+        font-size: 23px;
+        float: right    // Puts the close button on right side of the modal, next to cocktail name
+    }
+    #detail-content {
+        text-align: left;  
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+.scroll-stop {
+    overflow: hidden;   // Prevent scrolling while cocktail details modal is open
 }
 
 #intro-text {
