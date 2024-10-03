@@ -58,7 +58,7 @@ main .hidden {
   border-bottom: 2px solid;
 }
 
-.cocktail-details {
+.cocktail-recipe {
   display: block;
   margin: 0 auto;
   width: 50%;
@@ -71,24 +71,24 @@ main .hidden {
   border-radius: 15px;
   z-index: 2;
 }
-.cocktail-details h2 {
+.cocktail-recipe h2 {
   font-weight: bold;
   font-family: "comic sans ms";
 }
-.cocktail-details #btn-close {
+.cocktail-recipe #btn-close {
   position: relative;
   margin-left: auto;
   margin-right: 0;
   font-size: 23px;
   float: right;
 }
-.cocktail-details #btn-close:hover {
+.cocktail-recipe #btn-close:hover {
   font-weight: bold;
   border-radius: 60px;
   box-shadow: 0 0 2px #888;
   padding: 1px;
 }
-.cocktail-details #detail-content {
+.cocktail-recipe #recipe-content {
   text-align: left;
 }
 

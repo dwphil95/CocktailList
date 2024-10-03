@@ -1,5 +1,5 @@
 import cocktails from "../cocktails.json" with { type: 'json' };
-import { openDetails } from "./load-cocktail-details.js";
+import { openRecipe } from "./load-cocktail-recipe.js";
 
 
 var currentLiquorSelected = null
@@ -20,15 +20,15 @@ const createCocktailCard = function(liquor, cocktail) {
     var description = document.createElement("p")
     description.innerHTML = cocktails[liquor][cocktail].description
 
-    var drinkDetailsButton = document.createElement("a")
-    Object.assign(drinkDetailsButton, {
-        href: "javascript:void(0);",    // Prevent default scroll to the top behavior when cocktail details window is opened
+    var drinkRecipeButton = document.createElement("a")
+    Object.assign(drinkRecipeButton, {
+        href: "javascript:void(0);",    // Prevent default scroll to the top behavior when cocktail recipe window is opened
         className: "btn btn-primary", 
-        onclick: () => openDetails(liquor, cocktail)
+        onclick: () => openRecipe(liquor, cocktail)
     })
-    drinkDetailsButton.innerHTML = "Drink Details"
+    drinkRecipeButton.innerHTML = "Drink Recipe"
 
-    cardBodyDiv.append(cardTitle, description, drinkDetailsButton)
+    cardBodyDiv.append(cardTitle, description, drinkRecipeButton)
     cardDiv.append(img, cardBodyDiv)
 
     return cardDiv

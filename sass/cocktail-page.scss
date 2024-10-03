@@ -58,7 +58,7 @@ main {
     }
 }
 
-.cocktail-details {
+.cocktail-recipe {
     display: block;
     margin: 0 auto;
     width: 50%;
@@ -87,7 +87,7 @@ main {
         box-shadow: 0 0 2px #888;
         padding: 1px;
     }
-    #detail-content {
+    #recipe-content {
         text-align: left;  
     }
 }
@@ -106,7 +106,7 @@ main {
 }
 
 .scroll-stop {
-    overflow: hidden;   // Prevent scrolling while cocktail details modal is open
+    overflow: hidden;   // Prevent scrolling while cocktail recipe modal is open
 }
 
 .btn:hover {
