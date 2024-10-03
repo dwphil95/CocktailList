@@ -3,32 +3,51 @@ body {
   background-color: lightgrey;
 }
 body #header {
-  background-color: purple;
+  background-color: black;
+}
+body #intro-text {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+body #cocktail-list {
+  width: 70%;
+  margin: 0 auto;
 }
 
 h1 {
   color: white;
   border-bottom: 1px solid;
   padding: 5px;
-  font-family: "copperplate";
+  font-family: copperplate;
 }
 
 main {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 main .liquor {
   margin: 10px;
   font-weight: bold;
+  width: 170px;
+  font-family: cursive;
 }
 main .hidden {
   display: none;
+}
+
+.button-img {
+  opacity: 0.5;
+  width: auto;
+  height: 100px;
+  padding: 10px;
 }
 
 .card {
   margin: 20px;
   border: 2px solid;
   text-align: center;
+  box-shadow: 0 0 4px;
 }
 .card h5 {
   font-size: 30px;
@@ -41,10 +60,10 @@ main .hidden {
 
 .cocktail-details {
   display: block;
-  gap: 0.4rem;
-  width: 50%;
-  padding: 1.3rem;
   margin: 0 auto;
+  width: 50%;
+  left: 25%;
+  padding: 1.3rem;
   position: fixed;
   top: 20%;
   background-color: white;
@@ -62,6 +81,12 @@ main .hidden {
   margin-right: 0;
   font-size: 23px;
   float: right;
+}
+.cocktail-details #btn-close:hover {
+  font-weight: bold;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 1px;
 }
 .cocktail-details #detail-content {
   text-align: left;
@@ -83,12 +108,6 @@ main .hidden {
 
 .scroll-stop {
   overflow: hidden;
-}
-
-#intro-text {
-  width: 70%;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .btn:hover {

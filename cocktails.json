@@ -1,31 +1,31 @@
 {
     "Whiskey": {
         "Kentucky Mule": {
-            "img": "imgs/kentucky-mule.jpg",
+            "img": "imgs/whiskey-cocktails/kentucky-mule.jpg",
             "description": "The Kentucky mule opts for bourbon in this spin on the classic Moscow mule! It’s bubbly, bright and bold, with a spicy whiskey finish.",
             "ingredients": ["2 ounces Bourbon", "4 ounces ginger beer", "1/2 ounce fresh lime juice", "1 mint sprig", "Ice", "Lime wheel, for garnish"],
             "directions": ["Fill a copper mug or rocks glass with ice.", "Pour 2 ounces of bourbon over the ice.", "Add 1/2 ounce of fresh lime juice.", "Top with 4 ounces of ginger beer and gently stir to combine.", "Garnish with a lime wheel and a sprig of mint."]
         },
         "Old Fashioned": {
-            "img": "imgs/old-fashioned.jpg",
+            "img": "imgs/whiskey-cocktails/old-fashioned.jpg",
             "description": "The very first definition of the word “cocktail” in print (way back in 1806) described a combination of sugar, bitters, water, and spirit. In other words, this drink is precisely what the word cocktail referred to 200 years ago.",
             "ingredients": ["2 teaspoons simple syrup", "1 teaspoon water", "2 dashes bitters", "1 cup ice cubes", "1 (1.5 fluid ounce) jigger bourbon whiskey", "1 slice orange", "1 maraschino cherry"],
             "directions": ["Pour simple syrup, water, and bitters into a whiskey glass; stir to combine.", "Add ice cubes and pour in bourbon.", "Garnish with orange slice and maraschino cherry."]
         },
         "Whiskey Sour": {
-            "img": "imgs/whiskey-sour.png",
+            "img": "imgs/whiskey-cocktails/whiskey-sour.png",
             "description": "This whiskey sour recipe has all the right proportions of bright, bracing lemon juice; warming, floral bourbon; and sweet simple syrup to deliver a refreshing cocktail that’s neither too cloying nor too biting.",
             "ingredients": ["2 ounces bourbon or whiskey", "3/4–1 ounce fresh lemon juice", "3/4–1 ounce simple syrup", "Orange slice, for garnish", "Maraschino cherry, for garnish"],
             "directions": ["Combine the whiskey, lemon juice, and simple syrup in a cocktail shaker and fill with ice cubes. Shake well for 30 seconds.", "Strain into a rocks glass with fresh ice.", "Garnish with the orange slice and maraschino cherry."]
         },
         "Manhattan": {
-            "img": "imgs/manhattan.jpeg",
+            "img": "imgs/whiskey-cocktails/manhattan.jpeg",
             "description": "What the martini is to gin, the Manhattan is to whiskey. You'll switch from dry to sweet vermouth in this drink, though whiskey is a complicated category of spirits, and each one you pour will create a slightly different drink.",
             "ingredients": ["2 ounces rye whiskey", "1 ounce sweet vermouth", "2 dashes Angostura bitters", "Brandied cherry, for garnish (or lemon twist, if preferred)"],
             "directions": ["Add the rye whiskey, sweet vermouth, and bitters into a mixing glass with ice and stir until well-chilled.", "Strain into a chilled Nick & Nora or coupe glass.", "Garnish with a brandied cherry (or a lemon twist, if preferred)."]
         },
         "Mint Julep": {
-            "img": "imgs/mint-julep.webp",
+            "img": "imgs/whiskey-cocktails/mint-julep.webp",
             "description": "The mint julep is the drink of the Kentucky Derby and one of the best-known bourbon cocktails ever created. Like the old-fashioned, this drink requires muddling—in this case, mint and simple syrup—and features your favorite bourbon.",
             "ingredients": ["8 mint leaves", "1/4 ounce simple syrup", "2 ounces bourbon", "Mint sprig, for garnish", "Angostura bitters, for garnish (optional)"],
             "directions": ["In a Julep cup or rocks glass, lightly muddle the mint leaves in the simple syrup.", "Add the bourbon then pack the glass tightly with crushed ice.", "Stir until the cup is frosted on the outside.", "Top with more crushed ice to form an ice dome, and garnish with a mint sprig and a few drops of bitters (optional)."]
@@ -33,31 +33,31 @@
     },
     "Tequila": {
         "Tequila Sunrise": {
-            "img": "imgs/tequila-sunrise.jpeg",
+            "img": "imgs/tequila-cocktails/tequila-sunrise.jpeg",
             "description": "Sunny and bright, this tequila cocktail is as eye-catching as a golden sunrise. It’s swirled with vibrant yellows and reds, thanks to the fruity combination of orange, lime, tequila, and grenadine. Decorate with a maraschino cherry and a cocktail umbrella to serve this one poolside in the summer.",
             "ingredients": ["2 ounces blanco tequila", "4 ounces orange juice, freshly squeezed", "1/4 ounce grenadine", "Orange slice, for garnish", "Cherry, for garnish"],
             "directions": ["Add the tequila and then the orange juice to a chilled highball glass filled with ice.", "Top with the grenadine, which will sink to the bottom of the glass, creating a layered effect.", "Garnish with an orange slice and a cherry."]
         },
         "Tequila Sour": {
-            "img": "imgs/tequila-sour.png",
+            "img": "imgs/tequila-cocktails/tequila-sour.png",
             "description": "This tasty drink has vintage vibes and a whole lot of lemon lime flavor. Think of it as a Boston sour + classic Margarita, with some bitters thrown in for extra intrigue.",
             "ingredients": ["2 ounce tequila", "1 ounce lemon juice", "1/2 ounce simple syrup", "1 egg white", "2 dashes Angostura bitters"],
             "directions": ["In a cocktail shaker, combine the tequila, lemon juice, simple syrup, egg white, and Angostura bitters.", "Shake the mixture without ice for about 10 seconds to emulsify the egg white and create a frothy texture.", "Fill the shaker with ice and shake again for about 20 seconds, or until well-chilled.", "Double strain the mixture into a rocks glass filled with ice or a chilled coupe glass.", "Garnish the cocktail with a lemon wheel, cherry, or sprig of mint, as desired."]
         },
         "Margarita": {
-            "img": "imgs/margarita.jpg",
+            "img": "imgs/tequila-cocktails/margarita.jpg",
             "description": "You’ve probably had a bad Margarita. Or more than one. But when this zesty classic is made correctly—with quality tequila, orange liqueur, and lime juice — the drink carries itself upright.",
             "ingredients": ["1 wedge lime", "1 teaspoon coarse sea salt, or as needed", "1 large ice cube", "1 cup ice cubes, or as needed", "2 fluid ounces white tequila", "1 1/2 fluid ounces triple sec", "1 fluid ounce freshly squeezed lime juice", "1 slice lime"],
             "directions": ["Moisten the rim of a glass with a lime wedge. Sprinkle salt onto a plate. Lightly dip the moistened rim into the salt.", "Place a large ice cube in the glass and freeze the prepared glass until ready to serve.", "Fill a cocktail shaker with fresh ice. Add tequila, triple sec, and lime juice. Cover and shake vigorously until the outside of the shaker has frosted.", "Strain margarita into the chilled glass and garnish with a slice of lime."]
         },
         "Paloma": {
-            "img": "imgs/paloma.jpeg",
+            "img": "imgs/tequila-cocktails/paloma.jpeg",
             "description": "If you’ve shunned mixed drinks because they’re too sugary, or too sickly, or too garish, give the Paloma a try. It’s fresh and simple, made with sparkling water, tequila, and citrus. There’s no added sugar in this one, just a dash of agave to balance the sour notes. This is a tequila cocktail for grown-ups.",
             "ingredients": ["2 ounces tequila", "1/2 ounce lime juice, freshly squeezed", "4 ounces Grapefruit soda, chilled, to top", "Pinch of salt", "Lime wheel, for garnish"],
             "directions": ["Add the tequila, lime juice, and pinch of salt to the glass, and fill with ice.", "Top with grapefruit soda, and stir briefly and gently to combine.", "Garnish with a lime wheel."]
         },
         "El Diablo": {
-            "img": "imgs/el-diablo.jpeg",
+            "img": "imgs/tequila-cocktails/el-diablo.jpeg",
             "description": "This dark and devilish mix of black currant liqueur, ginger beer, and lime is one of my go-to Thanksgiving tequila cocktails. With its perfect balance of sweet, tart, and spicy flavors, El Diablo is one sprightly spirit.",
             "ingredients": ["1 1/2 ounces reposado tequila", "1/2 ounce crème de cassis", "1/2 ounce lime juice", "4 ounces ginger beer", "1 lime wedge, or cheek"],
             "directions": ["In a cocktail shaker filled with ice, pour the tequila, crème de cassis, and lime juice. Shake well.", "Strain into a collins glass filled with fresh ice.", "Top with ginger beer. Garnish with lime wedge or cheek."]
@@ -65,31 +65,31 @@
     },
     "Vodka": {
         "Moscow Mule": {
-            "img": "imgs/moscow-mule.jpeg",
+            "img": "imgs/vodka-cocktails/moscow-mule.jpeg",
             "description": "Said to have been created in the 1940s as a way to introduce Americans to vodka, a then-uncommon spirit, this simple three-ingredient cocktail is an easy mix of vodka, lime juice, and spicy ginger beer. It’s perhaps most notable for the vessel it’s traditionally served in, an eye-catching copper mug.",
             "ingredients": ["1 1/2 fluid ounces vodka", "1/2 fluid ounce lime juice", "Ice cubes", "1/2 cup ginger beer", "1 lime wedge, for garnish"],
             "directions": ["Pour vodka and lime juice into a mug or glass; add ice cubes and ginger beer. Stir to combine.", "Drop a lime wedge into the mug or glass for garnish."]
         },
         "Bloody Mary": {
-            "img": "imgs/bloody-mary.webp",
+            "img": "imgs/vodka-cocktails/bloody-mary.webp",
             "description": "It’s a hangover cure, a nutritious breakfast, an airport bar staple. This tomato- and vodka-based classic, created in Paris in the 1920s, is one of those drinks every city, every bar, and every bartender makes their own way.",
             "ingredients": ["Celery salt", "1 lemon wedge", "1 lime wedge", "2 ounces vodka", "4 ounces tomato juice", "2 teaspoons prepared horseradish", "2 dashes Tabasco sauce", "2 dashes Worcestershire sauce", "1 pinch ground black pepper", "1 pinch smoked paprika", "Parsley sprig, for garnish", "2 green olives, for garnish", "1 lime wedge, for garnish", "Celery stalk, for garnish"],
             "directions": ["Pour some celery salt onto a small plate.", "Rub the juicy side of the lemon or lime wedge along the lip of a pint glass.", "Roll the outer edge of the glass in celery salt until fully coated, then fill the glass with ice and set aside.", "Squeeze the lemon and lime wedges into a shaker and drop them in.", "Add the vodka, tomato juice, horseradish, Tabasco, Worcestershire sauce, black pepper, smoked paprika, plus a pinch of celery salt along with ice and shake gently.", "Strain into the prepared glass.", "Garnish with parsley sprig, 2 speared green olives, a lime wedge and a celery stalk (optional)."]
         },
         "Screwdriver": {
-            "img": "imgs/screwdriver.webp",
+            "img": "imgs/vodka-cocktails/screwdriver.webp",
             "description": "Got OJ? Got vodka? Make a Screwdriver! The Screwdriver is one of the easiest cocktails there is, ideal for afternoon drinks or brunch.",
             "ingredients": ["1 1/2 ounces vodka", "Orange juice, freshly squeezed, to top"],
             "directions": ["Fill a highball glass with ice, then add the vodka.", "Top with the orange juice."]
         },
         "Cosmopolitan": {
-            "img": "imgs/cosmopolitan.jpeg",
+            "img": "imgs/vodka-cocktails/cosmopolitan.jpeg",
             "description": "Here's another classic vodka cocktail: the Cosmo! It’s got a brilliant pink color and refreshing flavor. This recipe is balanced and tangy, an improved version of the classic using 100% cranberry juice. It's an easy cocktail to make, ready to spice up your next gathering.",
             "ingredients": ["1 1/2 ounces citron vodka", "3/4 ounce Cointreau", "3/4 ounce lime juice, freshly squeezed", "1/2 ounce cranberry juice cocktail", "Lime wedge, for garnish"],
             "directions": ["Add the vodka, Cointreau, lime juice, and cranberry juice cocktail into a shaker with ice and shake until well-chilled.", "Strain into a chilled cocktail glass.", "Garnish with a lime wedge."]
         },
         "Midori Sour": {
-            "img": "imgs/midori-sour.jpeg",
+            "img": "imgs/vodka-cocktails/midori-sour.jpeg",
             "description": "Many of the early neon drinks borne of the 1980s, famous for their vibrant hues and sweet, fruity flavors, are starting to make a comeback. If you’re looking for another recipe to add to your neon green cocktail arsenal, look no further than the Midori sour.",
             "ingredients": ["1 ounce Midori", "1 ounce vodka", "1/2 ounce lemon juice, freshly squeezed", "1/2 ounce lime juice, freshly squeezed", "Club soda, to top", "Lemon wheel, for garnish"],
             "directions": ["Add the Midori, vodka, lemon juice and lime juice to a Collins glass with ice.", "Stir to combine, then top with a splash of soda water.", "Garnish with a lemon wheel."]
@@ -97,31 +97,31 @@
     },
     "Gin": {
         "Gin and Tonic": {
-            "img": "imgs/gin-and-tonic.jpeg",
+            "img": "imgs/gin-cocktails/gin-and-tonic.jpeg",
             "description": "A perfectly seamless blend of crisp, junipery gin and thirst-quenchingly zesty tonic water, it’s no wonder the Gin and Tonic is one of the most perennially popular patio drinks.",
             "ingredients": ["2 ounces gin", "4 ounces tonic water", "2 lime wheels or other seasonal garnishes you may prefer"],
             "directions": ["Fill a highball glass with ice, then add the gin.", "Top with the tonic water and gently stir.", "Garnish with lime wheels or seasonal garnishes."]
         },
         "Gin Fizz": {
-            "img": "imgs/gin-fizz.jpeg",
+            "img": "imgs/gin-cocktails/gin-fizz.jpeg",
             "description": "This bright and effervescent combination of gin, lemon juice, simple syrup, an egg white, and club soda—akin to a Tom Collins plus egg white, or a Gin Sour with bubbles—produces a fizzy, frothy delight.",
             "ingredients": ["2 ounces gin", "1 ounce lemon juice, freshly squeezed", "3/4 ounce simple syrup", "1 egg white (about 1/2 ounce)", "Club soda, to top (about 1 ounce)"],
             "directions": ["Add the gin, lemon juice, simple syrup and egg white to a shaker and vigorously dry-shake (without ice) for about 15 seconds.", "Add 3 or 4 ice cubes and shake vigorously until well-chilled.", "Double-strain into a chilled Collins glass and top with club soda."]
         },
         "Negroni": {
-            "img": "imgs/negroni.jpeg",
+            "img": "imgs/gin-cocktails/negroni.jpeg",
             "description": "The Negroni is arguably the most famous of all Campari cocktails. This modest mix of equal parts gin, Campari, and sweet vermouth has made fine dining even finer since the 1920s.",
             "ingredients": ["1 ounce gin", "1 ounce Campari", "1 ounce sweet vermouth", "Orange peel, for garnish"],
             "directions": ["Add the gin, Campari and sweet vermouth to a mixing glass filled with ice, and stir until well-chilled.", "Strain into a rocks glass over a large ice cube.", "Garnish with an orange peel."]
         },
         "French 75": {
-            "img": "imgs/french75.jpeg",
+            "img": "imgs/gin-cocktails/french75.jpeg",
             "description": "The French 75 is as delightful as it is simple. The recipe combines gin, simple syrup, and lemon juice for a classic sour base. It's when the sparkling wine hits this mix that things really begin to glisten.",
             "ingredients": ["1 ounce gin", "1/2 ounce lemon juice, freshly squeezed", "1/2 ounce simple syrup", "3 ounces Champagne (or other sparkling wine)", "Lemon twist, for garnish"],
             "directions": ["Add the gin, lemon juice and simple syrup to a shaker with ice and shake until well-chilled.", "Strain into a Champagne flute.", "Top with the Champagne or sparkling wine of choice.", "Garnish with a lemon twist."]
         },
         "Gimlet": {
-            "img": "imgs/gimlet.jpeg",
+            "img": "imgs/gin-cocktails/gimlet.jpeg",
             "description": "Believed to have been created by British sailors (as many of the oldest cocktails were) as a way to prevent scurvy, this drink mixes a clear spirit, lime juice, and simple syrup to create a refreshing (and vitamin C-filled) cocktail.",
             "ingredients": ["2 1/2 ounces gin", "1/2 ounce lime juice, freshly squeezed", "1/2 ounce simple syrup", "Lime wheel, for garnish"],
             "directions": ["Add the gin, lime juice and simple syrup to a shaker with ice and shake until well-chilled.", "Strain into a chilled cocktail glass or an rocks glass filled with fresh ice.", "Garnish with a lime wheel."]
@@ -129,31 +129,31 @@
     },
     "Rum": {
         "Mojito": {
-            "img": "imgs/mojito.jpeg",
+            "img": "imgs/rum-cocktails/mojito.jpeg",
             "description": "This Cuban classic calls for combining unaged white rum, lime juice, muddled mint leaves, and sugar before topping it all with club soda. It’s a refreshing drink that provides a blast of flavor to take you straight into the Caribbean tropics, as perfect at a party as it is poolside.",
             "ingredients": ["3 mint leaves", "1/2 ounce simple syrup", "2 ounces white rum", "3/4 ounce lime juice, freshly squeezed", "Club soda, to top", "Mint sprig, for garnish", "Lime wheel, for garnish"],
             "directions": ["Lightly muddle the mint with the simple syrup in a shaker.", "Add the rum, lime juice and ice, and give it a brief shake, then strain into a highball glass over fresh ice (or pebble ice).", "Top with the club soda.", "Garnish with a mint sprig and lime wheel."]
         },
         "Daquiri": {
-            "img": "imgs/daquiri.webp",
+            "img": "imgs/rum-cocktails/daquiri.webp",
             "description": "The blender has certainly put its stamp on the Daiquiri, but this profoundly simple drink is at its best when it stays clear of a steel blade. Simply shake up rum, simple syrup and a blast of fresh lime juice, and you have the most perfect of citrusy cocktails.",
             "ingredients": ["2 ounces light rum", "1 ounce lime juice, freshly squeezed", "3/4 ounce demerara sugar syrup", "Lime twist, for garnish"],
             "directions": ["Add the rum, lime juice and demerara sugar syrup to a shaker with ice, and shake until well-chilled.", "Double strain through fine mesh strainer into a chilled coupe.", "Garnish with a lime twist."]
         },
         "Pina Colada": {
-            "img": "imgs/pina-colada.jpeg",
+            "img": "imgs/rum-cocktails/pina-colada.jpeg",
             "description": "Whether you blend it or shake it, few drinks say 'summer' like a piña colada. This tropical dream in a glass includes light rum, pineapple juice, and coconut cream. Every sip takes you on a mental journey to the islands, so relax and enjoy!",
             "ingredients": ["2 ounces light rum", "1 1/2 ounces cream of coconut", "1 1/2 ounces pineapple juice", "1/2 ounce lime juice, freshly squeezed", "Pineapple wedge, for garnish", "Pineapple leaf, for garnish"],
             "directions": ["Add the rum, cream of coconut and pineapple and lime juices to a shaker with ice and shake vigorously for 20 to 30 seconds.", "Strain into a chilled Hurricane glass over pebble ice.", "Garnish with a pineapple wedge and pineapple leaf."]
         },
         "Mai Thai": {
-            "img": "imgs/mai-tai.jpeg",
+            "img": "imgs/rum-cocktails/mai-tai.jpeg",
             "description": "The Mai Tai is one of the most famous Tiki drinks in the world. Composed of rum, orange curaçao, fresh lime juice and orgeat (a nuanced almond syrup), it’s held sway over cocktail enthusiasts and Tiki aficionados for decades.",
             "ingredients": ["1 1/2 ounces white rum", "3/4 ounce orange curaçao", "3/4 ounce lime juice, freshly squeezed", "1/2 ounce orgeat", "1/2 ounce dark rum", "Lime wheel, for garnish", "Mint sprig, for garnish"],
             "directions": ["Add the white rum, curaçao, lime juice and orgeat into a shaker with crushed ice and shake lightly (about 3 seconds).", "Pour into a double rocks glass.", "Float the dark rum over the top.", "Garnish with a lime wheel and mint sprig."]
         },
         "Zombie": {
-            "img": "imgs/zombie.png",
+            "img": "imgs/rum-cocktails/zombie.png",
             "description": "The Zombie is a behemoth of a cocktail that features three different rums—Jamaican, Puerto Rican and 151-proof. It's emblematic of the type of cocktails served at Beach's bar—strong and complex with many ingredients and multiple rums. The Zombie fits perfectly within Donn's philosophy, 'If you can't get to paradise, I'll bring it to you.'",
             "ingredients": ["1 1/2 ounces Jamaican rum", "1 1/2 ounces Puerto Rican gold rum", "1 ounce 151-proof demerara rum", "3/4 ounce lime juice, freshly squeezed", "1/2 ounce Don’s mix", "1/2 ounce falernum", "1 teaspoon grenadine", "4 dashes Pernod", "1 dash Angostura bitters", "Mint sprig, for garnish"],
             "directions": ["Add the Jamaica rum, Puerto Rican gold rum, demerara rum, Pernod, lime juice, Donn’s mix, falernum, grenadine and bitters into a blender, then add 6 ounces of crushed ice.", "Blend at high speed for no more than 5 seconds.", "Pour the contents into a tall glass or Tiki mug and add additional crushed ice to fill, if necessary.", "Garnish with a mint sprig."]

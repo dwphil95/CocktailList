@@ -1,4 +1,4 @@
-import cocktails from "./cocktails.json" with { type: 'json' };
+import cocktails from "../cocktails.json" with { type: 'json' };
 import { openDetails } from "./load-cocktail-details.js";
 
 
@@ -51,6 +51,13 @@ const listDrinks = function(liquor) {
     }
 }
 
+const addButtonImage = function(liquor) {
+    let img = document.createElement("img");
+    img.classList.add("button-img")
+    img.src = `./imgs/button-imgs/${liquor}.png`
+    return img
+}
+
 const loadLiquorButtons = function() {
     const liquors = Object.keys(cocktails)
     const liquorButtonSection = document.querySelector("#liquor-buttons")
@@ -60,11 +67,10 @@ const loadLiquorButtons = function() {
         Object.assign(button, {
             id: liquor,
             value: liquor,
-            textContent: liquor, 
-            onclick: () => listDrinks(liquor),
-            onmouseenter: (event) => {},
-            onmouseleave: (event) => {}
+            textContent: liquor,
+            onclick: () => listDrinks(liquor)
         })
+        button.appendChild(addButtonImage(liquor))
         liquorButtonSection.appendChild(button)
     })
 }

@@ -1,4 +1,4 @@
-import cocktails from "./cocktails.json" with { type: 'json' };
+import cocktails from "../cocktails.json" with { type: 'json' };
 
 
 const loadCocktailDetails = function(liquor, cocktail) {

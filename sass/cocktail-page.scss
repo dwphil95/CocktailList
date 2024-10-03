@@ -2,7 +2,16 @@ body {
     text-align: center;
     background-color: lightgrey;
     #header {
-        background-color: purple;
+        background-color: black;
+    }
+    #intro-text {
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    #cocktail-list {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 
@@ -10,25 +19,35 @@ h1 {
     color: white; 
     border-bottom: 1px solid; 
     padding: 5px; 
-    font-family: "copperplate";
+    font-family: copperplate;
 }
 
 main {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     .liquor {
         margin: 10px;
         font-weight: bold;
+        width: 170px;
+        font-family: cursive;
     }
     .hidden {
         display: none;
     }
 }
 
+.button-img {
+    opacity: 0.5;
+    width: auto;
+    height: 100px;
+    padding: 10px;
+}
+
 .card {
     margin: 20px;
     border: 2px solid;
     text-align: center;
+    box-shadow: 0 0 4px;
     h5 {
         font-size: 30px;
         font-family: "comic sans ms";
@@ -41,10 +60,10 @@ main {
 
 .cocktail-details {
     display: block;
-    gap: 0.4rem;
-    width: 50%;
-    padding: 1.3rem;
     margin: 0 auto;
+    width: 50%;
+    left: 25%;
+    padding: 1.3rem;
     position: fixed;
     top: 20%;
     background-color: white;
@@ -60,7 +79,13 @@ main {
         margin-left: auto;
         margin-right: 0;
         font-size: 23px;
-        float: right    // Puts the close button on right side of the modal, next to cocktail name
+        float: right;    // Puts the close button on right side of the modal, next to cocktail name
+    }
+    #btn-close:hover{
+        font-weight: bold;
+        border-radius: 60px;
+        box-shadow: 0 0 2px #888;
+        padding: 1px;
     }
     #detail-content {
         text-align: left;  
@@ -82,12 +107,6 @@ main {
 
 .scroll-stop {
     overflow: hidden;   // Prevent scrolling while cocktail details modal is open
-}
-
-#intro-text {
-    width: 70%;
-    margin: 0 auto;
-    padding: 20px;
 }
 
 .btn:hover {
